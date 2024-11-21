@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#products">Products</a></li>
+          
+        </ul>
+      </nav>
+  <!-- Section Home -->
+  <section id="home">
+    <div class="welcome-message">
+      <h1>Welcome to Security System</h1>
+      <p>Your trusted partner in securing your space.</p>
+      <button onclick="scrollToSection('services')">Explore Our Services</button>
+    </div>
+  </section>
+  <!-- قسم About -->
+
+  <section id="about">
+    <div class="about-container">
+      <h2>About Us</h2>
+      <p>We are a company dedicated to providing top-notch security solutions. Our mission is to offer advanced systems that protect your home and business. With years of experience and a team of professionals, we ensure the safety of your environment through innovative technology and exceptional service.</p>
+      
+      <!-- إضافة صور بجانب بعضها -->
+      <div class="about-images">
+        <img src="Screenshot 2024-11-18 034211.png" alt="Security System 1">
+        <img src="Screenshot 2024-11-18 033948.png" alt="Security System 2">
+        <img src="Screenshot 2024-11-18 043841.png" alt="Security System 3">
+      </div>
+    </div>
+  </section>
+  <!-- قسم Reviews -->
+
+  <section id="reviews">
+    <div class="reviews-container">
+      <h2>What Our Clients Say</h2>
+      
+      <!-- تقييم 1 -->
+      <div class="review">
+        <div class="review-img">
+          <img src="WhatsApp Image 2024-11-18 at 4.50.00 AM.jpeg" alt="Customer 1">
+        </div>
+        <div class="review-content">
+          <p>"This security system is incredible! It gave me peace of mind knowing my home is safe. The installation was fast and easy, and the customer service is excellent!"</p>
+          <p class="customer-name">John Doe</p>
+          <div class="rating">
+            ★★★★☆ <!-- يمكننا استخدام أيقونات نجوم بدلاً من النص -->
+          </div>
+        </div>
+      </div>
+      
+      <!-- تقييم 2 -->
+      <div class="review">
+        <div class="review-img">
+          <img src="WhatsApp Image 2024-11-18 at 4.50.00 AM (1).jpeg" alt="Customer 2">
+        </div>
+        <div class="review-content">
+          <p>"A fantastic product! I feel much safer with the advanced security system. The team was very helpful and made sure everything was working perfectly!"</p>
+          <p class="customer-name">Jane Smith</p>
+          <div class="rating">
+            ★★★★★
+          </div>
+        </div>
+      </div>
+      
+      <!-- تقييم 3 -->
+      <div class="review">
+        <div class="review-img">
+          <img src="Screenshot 2024-11-18 045953.png" alt="Customer 3">
+        </div>
+        <div class="review-content">
+          <p>"The system is very easy to use and gives great results. I recommend it to anyone looking for reliable security!"</p>
+          <p class="customer-name">Sarah Lee</p>
+          <div class="rating">
+            ★★★★☆
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section for Services (This is where the button will scroll to) -->
+  <section id="services">
+    <div class="services-container">
+      <h2>Our Services</h2>
+      
+      <!-- خدمة 1 -->
+      <div class="service">
+        <div class="service-icon">
+          <img src="Screenshot 2024-11-18 050822.png" alt="Installation">
+        </div>
+        <div class="service-info">
+          <h3>Security System Installation</h3>
+          <p>We provide professional installation of advanced security systems for your home or business, ensuring complete protection.</p>
+        </div>
+      </div>
+      
+      <!-- خدمة 2 -->
+      <div class="service">
+        <div class="service-icon">
+          <img src="Screenshot 2024-11-18 051040.png" alt="Monitoring">
+        </div>
+        <div class="service-info">
+          <h3>24/7 Monitoring</h3>
+          <p>Our monitoring services operate around the clock, giving you peace of mind knowing your property is always under surveillance.</p>
+        </div>
+      </div>
+      
+      <!-- خدمة 3 -->
+      <div class="service">
+        <div class="service-icon">
+          <img src="Screenshot 2024-11-18 053553.png" alt="Maintenance">
+        </div>
+        <div class="service-info">
+          <h3>System Maintenance</h3>
+          <p>We offer regular maintenance services to ensure your security system functions perfectly at all times.</p>
+        </div>
+      </div>
+      
+      <!-- خدمة 4 -->
+      <div class="service">
+        <div class="service-icon">
+          <img src="Screenshot 2024-11-18 034318.png" alt="Consultation">
+        </div>
+        <div class="service-info">
+          <h3>Security Consultation</h3>
+          <p>We provide expert advice on improving the security of your premises, with tailored solutions to fit your needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products-container">
+      <div class="product">
+        <img src="Screenshot 2024-11-18 053151.png" alt="Product 1">
+        <h3>IP Camera</h3>
+        <p class="price">$50</p>
+        <p class="description">This is a brief description of the product. It's really great for security purposes.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="Screenshot 2024-11-18 053046.png" alt="Product 2">
+        <h3>Bullet Camera</h3>
+        <p class="price">$120</p>
+        <p class="description">This product offers excellent performance for 24/7 monitoring.</p>
+        <button>Buy Now</button>
+      </div>
+      <div class="product">
+        <img src="Screenshot 2024-11-18 052626.png" alt="Product 3">
+        <h3>Dome Camera</h3>
+        <p class="price">$200</p>
+        <p class="description">Advanced security system for your home and office. Easy to install.</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+  <!-- Navbar (للتنقل بين الأقسام) -->
+  <main>
+    <div class="form-container">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+</footer>
+   
+   
+
+
+  <script src="main.js"></script>
+</body>
+</html>
